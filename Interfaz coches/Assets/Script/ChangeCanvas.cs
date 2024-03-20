@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class ChangeCanvas : MonoBehaviour
 {
     public GameObject canvaActivar;
     public GameObject canvaDesactivar;
@@ -18,9 +18,9 @@ public class NewBehaviourScript : MonoBehaviour
         
     }
 
-    public void cambiarCanvas
+    public void cambioCanvas()
     {
-        canvaActivar.setActive(true);
-        canvaDesactivar.setActive(false;)
+        canvaActivar.SetActive(true);
+        canvaDesactivar.SetActive(false);
     }
 }
