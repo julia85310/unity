@@ -1252,9 +1252,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1638359895}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e079b08db930ab34b88b10875b2a0d4a, type: 3}
+  m_Script: {fileID: 11500000, guid: 8d901d26c4abd164aa4500c42e6802ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canvaActivar: {fileID: 80848828}
+  canvaDesactivar: {fileID: 284005227}
 --- !u!1 &1737894667
 GameObject:
   m_ObjectHideFlags: 0
